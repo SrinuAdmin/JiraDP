@@ -37,7 +37,6 @@ public class SingletonTest {
 		Printer p1=(Printer) ois.readObject();
 		p1.showMsg();
 		//p1.showMsg();
-		
 		System.out.println(p.hashCode()+" "+p1.hashCode());
 		ois.close();
 	}
